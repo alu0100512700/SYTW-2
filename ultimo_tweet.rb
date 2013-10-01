@@ -30,9 +30,7 @@ class Ultimo_tweet
   end
 
   def prueba(name)
-    #"interpola #{name}"
-    tweet = Twitter.user_timeline(name).first
-    "#{tweet.text}"
+    Twitter.user_timeline(name).first.text
   end
 end
 
