@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-#require 'twitter'
+require 'twitter'
 require 'rack'
 require 'thin'
-#require './configure'
+require './configure'
 
 class Ultimo_tweet
 
@@ -30,7 +30,9 @@ class Ultimo_tweet
   end
 
   def prueba(name)
-    "interpola #{name}"
+    #"interpola #{name}"
+    tweet = Twitter.user_timeline(name).first
+    "#{tweet.text}"
   end
 end
 
