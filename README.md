@@ -5,11 +5,11 @@
 
 Añadir su configuración de cuenta a configure.rb
 
-Para ejecutar solamente debe ejecutar el Rakefile, tarea por defecto, con:
+###Para ejecutar solamente debe ejecutar el Rakefile, tarea por defecto, con:
 
 $rake
 
-Para acceder se debe ejecutar un navegador web y escribir en la barra de direcciones:
+###Para acceder se debe ejecutar un navegador web y escribir en la barra de direcciones:
 
 localhost:9292
 
